@@ -1,0 +1,122 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.3503550155981714,
+        "y": 5.558363146398085
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.3602798563055734,
+        "y": 5.558363146398085
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.7214768974992496,
+        "y": 4.281894381970583
+      },
+      "prevControl": {
+        "x": 1.3780367453828053,
+        "y": 4.611504729303815
+      },
+      "nextControl": {
+        "x": 1.9994735262197796,
+        "y": 4.015092248366315
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.6636802364485184,
+        "y": 4.123305701158235
+      },
+      "prevControl": {
+        "x": 2.6720237600936656,
+        "y": 4.127478363841326
+      },
+      "nextControl": {
+        "x": 2.645023550410077,
+        "y": 4.11397534375366
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.348327060290484,
+        "y": 5.558066825224559
+      },
+      "prevControl": {
+        "x": 1.348327060290484,
+        "y": 5.558066825224559
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1.0,
+      "rotationDegrees": 0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Start Intake",
+      "waypointRelativePos": 1.4,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "Start Intake"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Stop Intake",
+      "waypointRelativePos": 2.35,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "Stop Intake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -1.5984356981748494e-10,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Center Speaker",
+  "previewStartingState": null,
+  "useDefaultConstraints": false
+}

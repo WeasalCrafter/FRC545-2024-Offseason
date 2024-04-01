@@ -1,0 +1,43 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.7512873207564597,
+      "y": 6.726025815687995
+    },
+    "rotation": 60.3762512488262
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Speaker Amp"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Full Speaker Shot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Top Mid"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Full Speaker Shot"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

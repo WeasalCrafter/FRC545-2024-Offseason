@@ -1,0 +1,100 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.3503550155981714,
+        "y": 5.558363146398085
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.3602798563055734,
+        "y": 5.558363146398085
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.6916664742391756,
+        "y": 5.569261320342201
+      },
+      "prevControl": {
+        "x": 2.6823377283060927,
+        "y": 5.578590066273798
+      },
+      "nextControl": {
+        "x": 2.698262893744897,
+        "y": 5.56266490083753
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.3539852307138316,
+        "y": 5.560054420141035
+      },
+      "prevControl": {
+        "x": 1.3539852307138316,
+        "y": 5.560054420141035
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Start",
+      "waypointRelativePos": 0.6,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "Start Intake"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Stop Intake",
+      "waypointRelativePos": 1.4,
+      "command": {
+        "type": "sequential",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "Stop Intake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -0.20916765328298745,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Center Speaker",
+  "previewStartingState": null,
+  "useDefaultConstraints": false
+}
